@@ -2,7 +2,7 @@ version: '3'
 
 services:
   rabbit:
-    image: rabbitmq:3.8-management
+    image: rabbitmq:3.6-management
     hostname: rabbit
     restart: always
     ports:
